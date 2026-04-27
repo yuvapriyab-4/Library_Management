@@ -3,7 +3,7 @@ Date: 18 january 2021
 Author: Sanam kandar
 Project: Student library management system
 """
-
+# This is a simple library management system which can be used by students to borrow, return and donate books.  
 class Library:
     def __init__(self, listofBooks):
         self.books = listofBooks
@@ -47,7 +47,7 @@ class Student():
 
     def donateBook(self):
         print("Okay! you want to doante book!")
-        self.book = input("Enter name of the book you want to donate: ")
+        self.book = input("Enter any name of the book you want to donate: ")
         return self.book
 
 
